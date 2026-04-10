@@ -1,0 +1,8 @@
+[package]
+name = "cuda-social"
+version = "0.1.0"
+edition = "2021"
+description = "Social dynamics — norms, conventions, group formation, leadership, cooperation, and reputation in agent fleets"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
