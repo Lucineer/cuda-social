@@ -2,7 +2,12 @@
 name = "cuda-social"
 version = "0.1.0"
 edition = "2021"
-description = "Social dynamics — norms, conventions, group formation, leadership, cooperation, and reputation in agent fleets"
+description = "Social dynamics — norms, reputation, cooperation strategies, conflict"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-social"
+readme = "README.md"
+keywords = ["ai", "fleet", "agent", "rust"]
+categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
